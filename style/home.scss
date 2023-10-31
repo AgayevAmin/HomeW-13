@@ -1,0 +1,28 @@
+@import "./mixins";
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+body{
+    background-image: url(/img1/4b78802b0b946cdc179f730a39faddb9.jpeg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 95vh;
+  @include mobile{
+    background-image: url(/img1/unsplash_Fsgzm8N0hIY.png);
+  }
+}
+#section{
+    margin-top: 35px;
+    display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+    .item{
+      color: aliceblue;
+      text-align: center;
+      line-height: 50px;
+      font-size: 25px;
+    }
+}
